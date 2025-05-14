@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/face_detector/face_detector.egg-info/PKG-INFO
+../../build/face_detector/face_detector.egg-info/SOURCES.txt
+../../build/face_detector/face_detector.egg-info/dependency_links.txt
+../../build/face_detector/face_detector.egg-info/entry_points.txt
+../../build/face_detector/face_detector.egg-info/requires.txt
+../../build/face_detector/face_detector.egg-info/top_level.txt
+../../build/face_detector/face_detector.egg-info/zip-safe
+face_detector/__init__.py
+face_detector/face_detector_node.py
+resource/face_detector
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
