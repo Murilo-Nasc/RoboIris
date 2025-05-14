@@ -1,1 +1,0 @@
-/home/rasprobo1/RoboIris/src/object_detector/setup.py

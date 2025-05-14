@@ -13,7 +13,7 @@ class FaceDetector(Node):
             self.listener_callback,
             10)
         self.bridge = CvBridge()
-        self.face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
+        self.face_cascade = cv2.CascadeClassifier('/usr/share/opencv4/haarcascades/haarcascade_frontalface_default.xml')
         self.get_logger().info("Face detector node started.")
 
     def listener_callback(self, msg):

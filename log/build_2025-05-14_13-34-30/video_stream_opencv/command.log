@@ -1,2 +1,0 @@
-Invoking command in '/home/rasprobo1/RoboIris/build/video_stream_opencv': /usr/bin/cmake /home/rasprobo1/RoboIris/src/video_stream_opencv -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/rasprobo1/RoboIris/install/video_stream_opencv
-Invoked command in '/home/rasprobo1/RoboIris/build/video_stream_opencv' returned '1': /usr/bin/cmake /home/rasprobo1/RoboIris/src/video_stream_opencv -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/rasprobo1/RoboIris/install/video_stream_opencv

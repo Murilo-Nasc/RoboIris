@@ -1,0 +1,24 @@
+[0.659s] Invoking command in '/home/robofei/RoboIris/build/face_detector': PYTHONPATH=/home/robofei/RoboIris/build/face_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robofei/RoboIris/install/face_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robofei/RoboIris/build/face_detector/build --no-deps symlink_data
+[0.826s] running develop
+[0.923s] running egg_info
+[0.923s] creating face_detector.egg-info
+[0.923s] writing face_detector.egg-info/PKG-INFO
+[0.923s] writing dependency_links to face_detector.egg-info/dependency_links.txt
+[0.924s] writing entry points to face_detector.egg-info/entry_points.txt
+[0.924s] writing requirements to face_detector.egg-info/requires.txt
+[0.924s] writing top-level names to face_detector.egg-info/top_level.txt
+[0.924s] writing manifest file 'face_detector.egg-info/SOURCES.txt'
+[0.925s] reading manifest file 'face_detector.egg-info/SOURCES.txt'
+[0.925s] writing manifest file 'face_detector.egg-info/SOURCES.txt'
+[0.926s] running build_ext
+[0.926s] Creating /home/robofei/RoboIris/install/face_detector/lib/python3.10/site-packages/face-detector.egg-link (link to .)
+[0.927s] Installing face_detector script to /home/robofei/RoboIris/install/face_detector/lib/face_detector
+[0.927s] 
+[0.927s] Installed /home/robofei/RoboIris/build/face_detector
+[0.927s] running symlink_data
+[0.927s] creating /home/robofei/RoboIris/install/face_detector/share/ament_index
+[0.927s] creating /home/robofei/RoboIris/install/face_detector/share/ament_index/resource_index
+[0.928s] creating /home/robofei/RoboIris/install/face_detector/share/ament_index/resource_index/packages
+[0.928s] symbolically linking /home/robofei/RoboIris/build/face_detector/resource/face_detector -> /home/robofei/RoboIris/install/face_detector/share/ament_index/resource_index/packages
+[0.928s] symbolically linking /home/robofei/RoboIris/build/face_detector/package.xml -> /home/robofei/RoboIris/install/face_detector/share/face_detector
+[0.951s] Invoked command in '/home/robofei/RoboIris/build/face_detector' returned '0': PYTHONPATH=/home/robofei/RoboIris/build/face_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robofei/RoboIris/install/face_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/robofei/RoboIris/build/face_detector/build --no-deps symlink_data

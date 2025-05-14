@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-cc98efadbfc97e8ea99a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "v4l2_camera",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-2000ef7ca187c8671c8b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "v4l2_camera::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-v4l2_camera-711ae5bf1607c9a4f725.json",
+					"name" : "v4l2_camera",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "v4l2_camera_compose_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-v4l2_camera_compose_test-45abd3d481341fa304fc.json",
+					"name" : "v4l2_camera_compose_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "v4l2_camera_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-v4l2_camera_node-ab77694aee2645e5b0dc.json",
+					"name" : "v4l2_camera_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "v4l2_camera_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-v4l2_camera_uninstall-65672367438d60f7a185.json",
+					"name" : "v4l2_camera_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/robofei/RoboIris/build/v4l2_camera",
+		"source" : "/home/robofei/RoboIris/src/ros2_v4l2_camera"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
