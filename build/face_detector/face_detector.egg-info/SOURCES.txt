@@ -10,7 +10,11 @@ setup.py
 ../../build/face_detector/face_detector.egg-info/zip-safe
 face_detector/__init__.py
 face_detector/face_detector_node.py
+face_detector.egg-info/PKG-INFO
+face_detector.egg-info/SOURCES.txt
+face_detector.egg-info/dependency_links.txt
+face_detector.egg-info/entry_points.txt
+face_detector.egg-info/requires.txt
+face_detector.egg-info/top_level.txt
+face_detector.egg-info/zip-safe
 resource/face_detector
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py

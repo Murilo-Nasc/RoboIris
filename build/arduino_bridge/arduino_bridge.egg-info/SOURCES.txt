@@ -1,4 +1,3 @@
-LICENSE
 package.xml
 setup.cfg
 setup.py
@@ -11,7 +10,11 @@ setup.py
 ../../build/arduino_bridge/arduino_bridge.egg-info/zip-safe
 arduino_bridge/__init__.py
 arduino_bridge/arduino_bridge.py
+arduino_bridge.egg-info/PKG-INFO
+arduino_bridge.egg-info/SOURCES.txt
+arduino_bridge.egg-info/dependency_links.txt
+arduino_bridge.egg-info/entry_points.txt
+arduino_bridge.egg-info/requires.txt
+arduino_bridge.egg-info/top_level.txt
+arduino_bridge.egg-info/zip-safe
 resource/arduino_bridge
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py

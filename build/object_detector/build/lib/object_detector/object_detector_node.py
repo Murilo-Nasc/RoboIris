@@ -11,7 +11,7 @@ class ObjectDetector(Node):
         self.bridge = CvBridge()
         self.subscriber = self.create_subscription(
             Image,
-            '/camera/image_raw',
+            '/image_raw',
             self.image_callback,
             10
         )

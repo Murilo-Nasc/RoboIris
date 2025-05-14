@@ -9,7 +9,7 @@ class FaceDetector(Node):
         super().__init__('face_detector')
         self.subscription = self.create_subscription(
             Image,
-            '/camera/image_raw',
+            '/image_raw',
             self.listener_callback,
             10)
         self.bridge = CvBridge()

@@ -1,0 +1,24 @@
+[17.274s] Invoking command in '/home/rasprobo1/RoboIris/src/face_detector': PYTHONPATH=/home/rasprobo1/RoboIris/build/face_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rasprobo1/RoboIris/install/face_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/face_detector build --build-base /home/rasprobo1/RoboIris/build/face_detector/build install --record /home/rasprobo1/RoboIris/build/face_detector/install.log --single-version-externally-managed install_data
+[21.663s] running egg_info
+[21.672s] writing ../../build/face_detector/face_detector.egg-info/PKG-INFO
+[21.675s] writing dependency_links to ../../build/face_detector/face_detector.egg-info/dependency_links.txt
+[21.677s] writing entry points to ../../build/face_detector/face_detector.egg-info/entry_points.txt
+[21.680s] writing requirements to ../../build/face_detector/face_detector.egg-info/requires.txt
+[21.681s] writing top-level names to ../../build/face_detector/face_detector.egg-info/top_level.txt
+[21.707s] reading manifest file '../../build/face_detector/face_detector.egg-info/SOURCES.txt'
+[21.720s] writing manifest file '../../build/face_detector/face_detector.egg-info/SOURCES.txt'
+[21.722s] running build
+[21.723s] running build_py
+[21.728s] copying face_detector/face_detector_node.py -> /home/rasprobo1/RoboIris/build/face_detector/build/lib/face_detector
+[21.730s] running install
+[21.747s] running install_lib
+[21.757s] copying /home/rasprobo1/RoboIris/build/face_detector/build/lib/face_detector/face_detector_node.py -> /home/rasprobo1/RoboIris/install/face_detector/lib/python3.10/site-packages/face_detector
+[21.767s] byte-compiling /home/rasprobo1/RoboIris/install/face_detector/lib/python3.10/site-packages/face_detector/face_detector_node.py to face_detector_node.cpython-310.pyc
+[21.775s] running install_data
+[21.778s] running install_egg_info
+[21.802s] removing '/home/rasprobo1/RoboIris/install/face_detector/lib/python3.10/site-packages/face_detector-0.0.0-py3.10.egg-info' (and everything under it)
+[21.808s] Copying ../../build/face_detector/face_detector.egg-info to /home/rasprobo1/RoboIris/install/face_detector/lib/python3.10/site-packages/face_detector-0.0.0-py3.10.egg-info
+[21.829s] running install_scripts
+[22.137s] Installing face_detector script to /home/rasprobo1/RoboIris/install/face_detector/lib/face_detector
+[22.142s] writing list of installed files to '/home/rasprobo1/RoboIris/build/face_detector/install.log'
+[22.570s] Invoked command in '/home/rasprobo1/RoboIris/src/face_detector' returned '0': PYTHONPATH=/home/rasprobo1/RoboIris/build/face_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rasprobo1/RoboIris/install/face_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/face_detector build --build-base /home/rasprobo1/RoboIris/build/face_detector/build install --record /home/rasprobo1/RoboIris/build/face_detector/install.log --single-version-externally-managed install_data

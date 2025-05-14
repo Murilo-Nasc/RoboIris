@@ -1,0 +1,296 @@
+[0.000000] (-) TimerEvent: {}
+[0.004016] (arduino_bridge) JobQueued: {'identifier': 'arduino_bridge', 'dependencies': OrderedDict()}
+[0.005381] (face_detector) JobQueued: {'identifier': 'face_detector', 'dependencies': OrderedDict()}
+[0.006100] (object_detector) JobQueued: {'identifier': 'object_detector', 'dependencies': OrderedDict()}
+[0.006516] (arduino_bridge) JobStarted: {'identifier': 'arduino_bridge'}
+[0.100591] (-) TimerEvent: {}
+[0.103603] (face_detector) JobStarted: {'identifier': 'face_detector'}
+[0.171498] (object_detector) JobStarted: {'identifier': 'object_detector'}
+[0.200856] (-) TimerEvent: {}
+[0.302067] (-) TimerEvent: {}
+[0.403714] (-) TimerEvent: {}
+[0.505156] (-) TimerEvent: {}
+[0.606482] (-) TimerEvent: {}
+[0.708156] (-) TimerEvent: {}
+[0.809602] (-) TimerEvent: {}
+[0.910943] (-) TimerEvent: {}
+[1.012455] (-) TimerEvent: {}
+[1.114223] (-) TimerEvent: {}
+[1.216443] (-) TimerEvent: {}
+[1.318057] (-) TimerEvent: {}
+[1.419977] (-) TimerEvent: {}
+[1.521485] (-) TimerEvent: {}
+[1.623862] (-) TimerEvent: {}
+[1.725310] (-) TimerEvent: {}
+[1.826630] (-) TimerEvent: {}
+[1.928268] (-) TimerEvent: {}
+[2.029631] (-) TimerEvent: {}
+[2.130924] (-) TimerEvent: {}
+[2.232466] (-) TimerEvent: {}
+[2.333633] (-) TimerEvent: {}
+[2.434402] (-) TimerEvent: {}
+[2.535993] (-) TimerEvent: {}
+[2.637340] (-) TimerEvent: {}
+[2.738700] (-) TimerEvent: {}
+[2.840327] (-) TimerEvent: {}
+[2.941670] (-) TimerEvent: {}
+[3.043254] (-) TimerEvent: {}
+[3.144744] (-) TimerEvent: {}
+[3.246309] (-) TimerEvent: {}
+[3.349246] (-) TimerEvent: {}
+[3.452396] (-) TimerEvent: {}
+[3.554359] (-) TimerEvent: {}
+[3.656292] (-) TimerEvent: {}
+[3.757987] (-) TimerEvent: {}
+[3.859865] (-) TimerEvent: {}
+[3.961197] (-) TimerEvent: {}
+[4.062539] (-) TimerEvent: {}
+[4.164079] (-) TimerEvent: {}
+[4.265408] (-) TimerEvent: {}
+[4.366738] (-) TimerEvent: {}
+[4.468257] (-) TimerEvent: {}
+[4.569613] (-) TimerEvent: {}
+[4.670972] (-) TimerEvent: {}
+[4.772358] (-) TimerEvent: {}
+[4.873770] (-) TimerEvent: {}
+[4.975161] (-) TimerEvent: {}
+[5.076572] (-) TimerEvent: {}
+[5.178240] (-) TimerEvent: {}
+[5.280652] (-) TimerEvent: {}
+[5.382375] (-) TimerEvent: {}
+[5.484552] (-) TimerEvent: {}
+[5.585989] (-) TimerEvent: {}
+[5.686848] (-) TimerEvent: {}
+[5.789282] (-) TimerEvent: {}
+[5.890613] (-) TimerEvent: {}
+[5.992421] (-) TimerEvent: {}
+[6.093701] (-) TimerEvent: {}
+[6.195087] (-) TimerEvent: {}
+[6.296617] (-) TimerEvent: {}
+[6.398005] (-) TimerEvent: {}
+[6.499348] (-) TimerEvent: {}
+[6.600858] (-) TimerEvent: {}
+[6.702335] (-) TimerEvent: {}
+[6.804479] (-) TimerEvent: {}
+[6.906761] (-) TimerEvent: {}
+[7.008712] (-) TimerEvent: {}
+[7.110007] (-) TimerEvent: {}
+[7.211392] (-) TimerEvent: {}
+[7.312989] (-) TimerEvent: {}
+[7.415714] (-) TimerEvent: {}
+[7.518809] (-) TimerEvent: {}
+[7.622903] (-) TimerEvent: {}
+[7.725000] (-) TimerEvent: {}
+[7.827113] (-) TimerEvent: {}
+[7.929366] (-) TimerEvent: {}
+[8.030782] (-) TimerEvent: {}
+[8.132363] (-) TimerEvent: {}
+[8.233682] (-) TimerEvent: {}
+[8.334955] (-) TimerEvent: {}
+[8.436408] (-) TimerEvent: {}
+[8.537747] (-) TimerEvent: {}
+[8.639098] (-) TimerEvent: {}
+[8.740416] (-) TimerEvent: {}
+[8.841739] (-) TimerEvent: {}
+[8.943079] (-) TimerEvent: {}
+[9.044372] (-) TimerEvent: {}
+[9.146638] (-) TimerEvent: {}
+[9.250013] (-) TimerEvent: {}
+[9.352995] (-) TimerEvent: {}
+[9.456312] (-) TimerEvent: {}
+[9.558794] (-) TimerEvent: {}
+[9.660181] (-) TimerEvent: {}
+[9.761548] (-) TimerEvent: {}
+[9.862943] (-) TimerEvent: {}
+[9.964429] (-) TimerEvent: {}
+[10.065778] (-) TimerEvent: {}
+[10.167123] (-) TimerEvent: {}
+[10.268556] (-) TimerEvent: {}
+[10.371832] (-) TimerEvent: {}
+[10.474667] (-) TimerEvent: {}
+[10.576456] (-) TimerEvent: {}
+[10.679814] (-) TimerEvent: {}
+[10.782673] (-) TimerEvent: {}
+[10.885563] (-) TimerEvent: {}
+[10.987058] (-) TimerEvent: {}
+[11.088722] (-) TimerEvent: {}
+[11.191476] (-) TimerEvent: {}
+[11.293045] (-) TimerEvent: {}
+[11.394461] (-) TimerEvent: {}
+[11.496049] (-) TimerEvent: {}
+[11.598812] (-) TimerEvent: {}
+[11.701535] (-) TimerEvent: {}
+[11.804190] (-) TimerEvent: {}
+[11.906910] (-) TimerEvent: {}
+[12.009742] (-) TimerEvent: {}
+[12.115104] (-) TimerEvent: {}
+[12.219063] (-) TimerEvent: {}
+[12.320545] (-) TimerEvent: {}
+[12.422096] (-) TimerEvent: {}
+[12.525226] (-) TimerEvent: {}
+[12.628159] (-) TimerEvent: {}
+[12.731069] (-) TimerEvent: {}
+[12.833846] (-) TimerEvent: {}
+[12.936583] (-) TimerEvent: {}
+[13.039265] (-) TimerEvent: {}
+[13.141850] (-) TimerEvent: {}
+[13.244462] (-) TimerEvent: {}
+[13.347392] (-) TimerEvent: {}
+[13.450469] (-) TimerEvent: {}
+[13.552090] (-) TimerEvent: {}
+[13.654146] (-) TimerEvent: {}
+[13.756848] (-) TimerEvent: {}
+[13.859779] (-) TimerEvent: {}
+[13.962669] (-) TimerEvent: {}
+[14.065671] (-) TimerEvent: {}
+[14.168415] (-) TimerEvent: {}
+[14.271261] (-) TimerEvent: {}
+[14.372683] (-) TimerEvent: {}
+[14.473723] (-) TimerEvent: {}
+[14.575316] (-) TimerEvent: {}
+[14.676917] (-) TimerEvent: {}
+[14.779853] (-) TimerEvent: {}
+[14.884789] (-) TimerEvent: {}
+[14.988035] (-) TimerEvent: {}
+[15.090451] (-) TimerEvent: {}
+[15.192073] (-) TimerEvent: {}
+[15.293746] (-) TimerEvent: {}
+[15.396330] (-) TimerEvent: {}
+[15.498817] (-) TimerEvent: {}
+[15.600691] (-) TimerEvent: {}
+[15.702057] (-) TimerEvent: {}
+[15.803443] (-) TimerEvent: {}
+[15.904761] (-) TimerEvent: {}
+[16.006154] (-) TimerEvent: {}
+[16.107730] (-) TimerEvent: {}
+[16.209245] (-) TimerEvent: {}
+[16.312345] (-) TimerEvent: {}
+[16.414489] (-) TimerEvent: {}
+[16.516509] (-) TimerEvent: {}
+[16.618491] (-) TimerEvent: {}
+[16.720487] (-) TimerEvent: {}
+[16.825017] (-) TimerEvent: {}
+[16.928544] (-) TimerEvent: {}
+[17.031559] (-) TimerEvent: {}
+[17.090515] (arduino_bridge) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/arduino_bridge', 'build', '--build-base', '/home/rasprobo1/RoboIris/build/arduino_bridge/build', 'install', '--record', '/home/rasprobo1/RoboIris/build/arduino_bridge/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/rasprobo1/RoboIris/src/arduino_bridge', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rasprobo1', 'SSH_CLIENT': '10.42.0.1 57608 22', 'LC_TIME': 'pt_BR.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/rasprobo1', 'OLDPWD': '/home/rasprobo1', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'pt_BR.UTF-8', 'LC_CTYPE': 'pt_BR.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'humble', 'LOGNAME': 'rasprobo1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/rasprobo1/.local/bin:/home/rasprobo1/.local/bin:/home/rasprobo1/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'pt_BR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:11.0', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'pt_BR.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'pt_BR.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pt_BR.UTF-8', 'LC_IDENTIFICATION': 'pt_BR.UTF-8', 'PWD': '/home/rasprobo1/RoboIris/build/arduino_bridge', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.42.0.1 57608 10.42.0.230 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LDS_MODEL': 'HLS_LFCD2', 'PYTHONPATH': '/home/rasprobo1/RoboIris/build/arduino_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rasprobo1/RoboIris/install/arduino_bridge/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'pt_BR.UTF-8', 'LC_PAPER': 'pt_BR.UTF-8', 'COLCON': '1'}, 'shell': False}
+[17.132538] (-) TimerEvent: {}
+[17.205453] (object_detector) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/object_detector', 'build', '--build-base', '/home/rasprobo1/RoboIris/build/object_detector/build', 'install', '--record', '/home/rasprobo1/RoboIris/build/object_detector/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/rasprobo1/RoboIris/src/object_detector', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rasprobo1', 'SSH_CLIENT': '10.42.0.1 57608 22', 'LC_TIME': 'pt_BR.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/rasprobo1', 'OLDPWD': '/home/rasprobo1', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'pt_BR.UTF-8', 'LC_CTYPE': 'pt_BR.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'humble', 'LOGNAME': 'rasprobo1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/rasprobo1/.local/bin:/home/rasprobo1/.local/bin:/home/rasprobo1/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'pt_BR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:11.0', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'pt_BR.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'pt_BR.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pt_BR.UTF-8', 'LC_IDENTIFICATION': 'pt_BR.UTF-8', 'PWD': '/home/rasprobo1/RoboIris/build/object_detector', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.42.0.1 57608 10.42.0.230 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LDS_MODEL': 'HLS_LFCD2', 'PYTHONPATH': '/home/rasprobo1/RoboIris/build/object_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rasprobo1/RoboIris/install/object_detector/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'pt_BR.UTF-8', 'LC_PAPER': 'pt_BR.UTF-8', 'COLCON': '1'}, 'shell': False}
+[17.239402] (-) TimerEvent: {}
+[17.266697] (face_detector) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/face_detector', 'build', '--build-base', '/home/rasprobo1/RoboIris/build/face_detector/build', 'install', '--record', '/home/rasprobo1/RoboIris/build/face_detector/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/rasprobo1/RoboIris/src/face_detector', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rasprobo1', 'SSH_CLIENT': '10.42.0.1 57608 22', 'LC_TIME': 'pt_BR.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/rasprobo1', 'OLDPWD': '/home/rasprobo1', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'pt_BR.UTF-8', 'LC_CTYPE': 'pt_BR.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'ROS_DISTRO': 'humble', 'LOGNAME': 'rasprobo1', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/rasprobo1/.local/bin:/home/rasprobo1/.local/bin:/home/rasprobo1/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'pt_BR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:11.0', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'pt_BR.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'pt_BR.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pt_BR.UTF-8', 'LC_IDENTIFICATION': 'pt_BR.UTF-8', 'PWD': '/home/rasprobo1/RoboIris/build/face_detector', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '10.42.0.1 57608 10.42.0.230 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LDS_MODEL': 'HLS_LFCD2', 'PYTHONPATH': '/home/rasprobo1/RoboIris/build/face_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rasprobo1/RoboIris/install/face_detector/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'pt_BR.UTF-8', 'LC_PAPER': 'pt_BR.UTF-8', 'COLCON': '1'}, 'shell': False}
+[17.339788] (-) TimerEvent: {}
+[17.441585] (-) TimerEvent: {}
+[17.543266] (-) TimerEvent: {}
+[17.644977] (-) TimerEvent: {}
+[17.747057] (-) TimerEvent: {}
+[17.848246] (-) TimerEvent: {}
+[17.950737] (-) TimerEvent: {}
+[18.054362] (-) TimerEvent: {}
+[18.157289] (-) TimerEvent: {}
+[18.260200] (-) TimerEvent: {}
+[18.362919] (-) TimerEvent: {}
+[18.465725] (-) TimerEvent: {}
+[18.568831] (-) TimerEvent: {}
+[18.671620] (-) TimerEvent: {}
+[18.774134] (-) TimerEvent: {}
+[18.876942] (-) TimerEvent: {}
+[18.979768] (-) TimerEvent: {}
+[19.086388] (-) TimerEvent: {}
+[19.189337] (-) TimerEvent: {}
+[19.292640] (-) TimerEvent: {}
+[19.396091] (-) TimerEvent: {}
+[19.498177] (-) TimerEvent: {}
+[19.600827] (-) TimerEvent: {}
+[19.703487] (-) TimerEvent: {}
+[19.806074] (-) TimerEvent: {}
+[19.908573] (-) TimerEvent: {}
+[20.011300] (-) TimerEvent: {}
+[20.138186] (-) TimerEvent: {}
+[20.240831] (-) TimerEvent: {}
+[20.343553] (-) TimerEvent: {}
+[20.450590] (-) TimerEvent: {}
+[20.553398] (-) TimerEvent: {}
+[20.656517] (-) TimerEvent: {}
+[20.759479] (-) TimerEvent: {}
+[20.862154] (-) TimerEvent: {}
+[20.965088] (-) TimerEvent: {}
+[21.067765] (-) TimerEvent: {}
+[21.170316] (-) TimerEvent: {}
+[21.245785] (arduino_bridge) StdoutLine: {'line': b'running egg_info\n'}
+[21.257720] (arduino_bridge) StdoutLine: {'line': b'writing ../../build/arduino_bridge/arduino_bridge.egg-info/PKG-INFO\n'}
+[21.261724] (arduino_bridge) StdoutLine: {'line': b'writing dependency_links to ../../build/arduino_bridge/arduino_bridge.egg-info/dependency_links.txt\n'}
+[21.263822] (arduino_bridge) StdoutLine: {'line': b'writing entry points to ../../build/arduino_bridge/arduino_bridge.egg-info/entry_points.txt\n'}
+[21.266188] (arduino_bridge) StdoutLine: {'line': b'writing requirements to ../../build/arduino_bridge/arduino_bridge.egg-info/requires.txt\n'}
+[21.268052] (arduino_bridge) StdoutLine: {'line': b'writing top-level names to ../../build/arduino_bridge/arduino_bridge.egg-info/top_level.txt\n'}
+[21.270601] (-) TimerEvent: {}
+[21.300016] (arduino_bridge) StdoutLine: {'line': b"reading manifest file '../../build/arduino_bridge/arduino_bridge.egg-info/SOURCES.txt'\n"}
+[21.306368] (arduino_bridge) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[21.315529] (object_detector) StdoutLine: {'line': b'running egg_info\n'}
+[21.323306] (object_detector) StdoutLine: {'line': b'writing ../../build/object_detector/object_detector.egg-info/PKG-INFO\n'}
+[21.327619] (object_detector) StdoutLine: {'line': b'writing dependency_links to ../../build/object_detector/object_detector.egg-info/dependency_links.txt\n'}
+[21.336066] (arduino_bridge) StdoutLine: {'line': b"writing manifest file '../../build/arduino_bridge/arduino_bridge.egg-info/SOURCES.txt'\n"}
+[21.342263] (arduino_bridge) StdoutLine: {'line': b'running build\n'}
+[21.343820] (arduino_bridge) StdoutLine: {'line': b'running build_py\n'}
+[21.345247] (object_detector) StdoutLine: {'line': b'writing entry points to ../../build/object_detector/object_detector.egg-info/entry_points.txt\n'}
+[21.346584] (object_detector) StdoutLine: {'line': b'writing requirements to ../../build/object_detector/object_detector.egg-info/requires.txt\n'}
+[21.359774] (object_detector) StdoutLine: {'line': b'writing top-level names to ../../build/object_detector/object_detector.egg-info/top_level.txt\n'}
+[21.361242] (arduino_bridge) StdoutLine: {'line': b'running install\n'}
+[21.362569] (arduino_bridge) StdoutLine: {'line': b'running install_lib\n'}
+[21.363793] (object_detector) StdoutLine: {'line': b"reading manifest file '../../build/object_detector/object_detector.egg-info/SOURCES.txt'\n"}
+[21.366353] (object_detector) StdoutLine: {'line': b"writing manifest file '../../build/object_detector/object_detector.egg-info/SOURCES.txt'\n"}
+[21.368695] (object_detector) StdoutLine: {'line': b'running build\n'}
+[21.369723] (object_detector) StdoutLine: {'line': b'running build_py\n'}
+[21.370862] (-) TimerEvent: {}
+[21.374270] (object_detector) StdoutLine: {'line': b'running install\n'}
+[21.376769] (arduino_bridge) StdoutLine: {'line': b'running install_data\n'}
+[21.415254] (object_detector) StdoutLine: {'line': b'running install_lib\n'}
+[21.417049] (arduino_bridge) StdoutLine: {'line': b'running install_egg_info\n'}
+[21.418943] (object_detector) StdoutLine: {'line': b'running install_data\n'}
+[21.420646] (object_detector) StdoutLine: {'line': b'running install_egg_info\n'}
+[21.422381] (arduino_bridge) StdoutLine: {'line': b"removing '/home/rasprobo1/RoboIris/install/arduino_bridge/lib/python3.10/site-packages/arduino_bridge-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[21.424283] (arduino_bridge) StdoutLine: {'line': b'Copying ../../build/arduino_bridge/arduino_bridge.egg-info to /home/rasprobo1/RoboIris/install/arduino_bridge/lib/python3.10/site-packages/arduino_bridge-0.0.0-py3.10.egg-info\n'}
+[21.436775] (object_detector) StdoutLine: {'line': b"removing '/home/rasprobo1/RoboIris/install/object_detector/lib/python3.10/site-packages/object_detector-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[21.438222] (object_detector) StdoutLine: {'line': b'Copying ../../build/object_detector/object_detector.egg-info to /home/rasprobo1/RoboIris/install/object_detector/lib/python3.10/site-packages/object_detector-0.0.0-py3.10.egg-info\n'}
+[21.439399] (arduino_bridge) StdoutLine: {'line': b'running install_scripts\n'}
+[21.471235] (-) TimerEvent: {}
+[21.478601] (object_detector) StdoutLine: {'line': b'running install_scripts\n'}
+[21.571518] (-) TimerEvent: {}
+[21.674480] (-) TimerEvent: {}
+[21.688972] (arduino_bridge) StdoutLine: {'line': b'Installing arduino_bridge script to /home/rasprobo1/RoboIris/install/arduino_bridge/lib/arduino_bridge\n'}
+[21.695251] (arduino_bridge) StdoutLine: {'line': b"writing list of installed files to '/home/rasprobo1/RoboIris/build/arduino_bridge/install.log'\n"}
+[21.740760] (face_detector) StdoutLine: {'line': b'running egg_info\n'}
+[21.747388] (object_detector) StdoutLine: {'line': b'Installing object_detector script to /home/rasprobo1/RoboIris/install/object_detector/lib/object_detector\n'}
+[21.751865] (face_detector) StdoutLine: {'line': b'writing ../../build/face_detector/face_detector.egg-info/PKG-INFO\n'}
+[21.755457] (object_detector) StdoutLine: {'line': b"writing list of installed files to '/home/rasprobo1/RoboIris/build/object_detector/install.log'\n"}
+[21.757164] (face_detector) StdoutLine: {'line': b'writing dependency_links to ../../build/face_detector/face_detector.egg-info/dependency_links.txt\n'}
+[21.760586] (face_detector) StdoutLine: {'line': b'writing entry points to ../../build/face_detector/face_detector.egg-info/entry_points.txt\n'}
+[21.772063] (face_detector) StdoutLine: {'line': b'writing requirements to ../../build/face_detector/face_detector.egg-info/requires.txt\n'}
+[21.782318] (-) TimerEvent: {}
+[21.786931] (face_detector) StdoutLine: {'line': b'writing top-level names to ../../build/face_detector/face_detector.egg-info/top_level.txt\n'}
+[21.815097] (face_detector) StdoutLine: {'line': b"reading manifest file '../../build/face_detector/face_detector.egg-info/SOURCES.txt'\n"}
+[21.830386] (face_detector) StdoutLine: {'line': b"writing manifest file '../../build/face_detector/face_detector.egg-info/SOURCES.txt'\n"}
+[21.834454] (face_detector) StdoutLine: {'line': b'running build\n'}
+[21.836368] (face_detector) StdoutLine: {'line': b'running build_py\n'}
+[21.840070] (face_detector) StdoutLine: {'line': b'running install\n'}
+[21.853460] (face_detector) StdoutLine: {'line': b'running install_lib\n'}
+[21.873847] (face_detector) StdoutLine: {'line': b'running install_data\n'}
+[21.877760] (face_detector) StdoutLine: {'line': b'running install_egg_info\n'}
+[21.884877] (-) TimerEvent: {}
+[21.918744] (face_detector) StdoutLine: {'line': b"removing '/home/rasprobo1/RoboIris/install/face_detector/lib/python3.10/site-packages/face_detector-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[21.924877] (face_detector) StdoutLine: {'line': b'Copying ../../build/face_detector/face_detector.egg-info to /home/rasprobo1/RoboIris/install/face_detector/lib/python3.10/site-packages/face_detector-0.0.0-py3.10.egg-info\n'}
+[21.948106] (face_detector) StdoutLine: {'line': b'running install_scripts\n'}
+[21.985489] (-) TimerEvent: {}
+[22.089852] (-) TimerEvent: {}
+[22.120874] (object_detector) CommandEnded: {'returncode': 0}
+[22.190357] (-) TimerEvent: {}
+[22.260596] (face_detector) StdoutLine: {'line': b'Installing face_detector script to /home/rasprobo1/RoboIris/install/face_detector/lib/face_detector\n'}
+[22.263664] (face_detector) StdoutLine: {'line': b"writing list of installed files to '/home/rasprobo1/RoboIris/build/face_detector/install.log'\n"}
+[22.294810] (-) TimerEvent: {}
+[22.332560] (object_detector) JobEnded: {'identifier': 'object_detector', 'rc': 0}
+[22.353474] (arduino_bridge) CommandEnded: {'returncode': 0}
+[22.395653] (-) TimerEvent: {}
+[22.473539] (arduino_bridge) JobEnded: {'identifier': 'arduino_bridge', 'rc': 0}
+[22.496092] (-) TimerEvent: {}
+[22.526920] (face_detector) CommandEnded: {'returncode': 0}
+[22.596398] (-) TimerEvent: {}
+[22.606599] (face_detector) JobEnded: {'identifier': 'face_detector', 'rc': 0}
+[22.614963] (-) EventReactorShutdown: {}
