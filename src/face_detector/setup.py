@@ -17,7 +17,7 @@ setup(
     maintainer_email='160672626+jaogui@users.noreply.github.com',
     description='Face detector',
     license='Apache 2.0',
-    tests_require=['pytest'],
+    #tests_require=['pytest'],
     entry_points={
         'console_scripts': [
         	'face_detector = face_detector.face_detector_node:main',

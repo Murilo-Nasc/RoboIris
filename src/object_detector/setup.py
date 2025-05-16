@@ -17,7 +17,7 @@ setup(
     maintainer_email='160672626+jaogui@users.noreply.github.com.',
     description='Object detector',
     license='Apache 2.0',
-    tests_require=['pytest'],
+    #tests_require=['pytest'],
     entry_points={
         'console_scripts': [
 		'object_detector = object_detector.object_detector_node:main',

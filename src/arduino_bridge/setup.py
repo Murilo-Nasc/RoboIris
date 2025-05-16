@@ -17,7 +17,7 @@ setup(
     maintainer_email='murilo@todo.todo',
     description='TODO: Package description',
     license='TODO: License declaration',
-    tests_require=['pytest'],
+    #tests_require=['pytest'],
     entry_points={
         'console_scripts': [
             'arduino_bridge = arduino_bridge.arduino_bridge:main',

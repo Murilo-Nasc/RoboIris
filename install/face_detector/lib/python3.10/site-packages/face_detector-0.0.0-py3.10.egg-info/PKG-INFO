@@ -1,12 +1,13 @@
-Metadata-Version: 2.1
-Name: face-detector
+Metadata-Version: 2.4
+Name: face_detector
 Version: 0.0.0
 Summary: Face detector
-Home-page: UNKNOWN
 Maintainer: robofei
 Maintainer-email: 160672626+jaogui@users.noreply.github.com
 License: Apache 2.0
-Platform: UNKNOWN
-
-UNKNOWN
-
+Requires-Dist: setuptools
+Dynamic: license
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: requires-dist
+Dynamic: summary

@@ -1,0 +1,28 @@
+[0.683s] Invoking command in '/home/robofei/RoboIris/src/arduino_bridge': PYTHONPATH=/home/robofei/RoboIris/build/arduino_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robofei/RoboIris/install/arduino_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arduino_bridge build --build-base /home/robofei/RoboIris/build/arduino_bridge/build install --record /home/robofei/RoboIris/build/arduino_bridge/install.log --single-version-externally-managed install_data
+[0.789s] /home/robofei/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.789s]   warnings.warn(msg)
+[0.854s] running egg_info
+[0.864s] writing ../../build/arduino_bridge/arduino_bridge.egg-info/PKG-INFO
+[0.865s] writing dependency_links to ../../build/arduino_bridge/arduino_bridge.egg-info/dependency_links.txt
+[0.865s] writing entry points to ../../build/arduino_bridge/arduino_bridge.egg-info/entry_points.txt
+[0.865s] writing requirements to ../../build/arduino_bridge/arduino_bridge.egg-info/requires.txt
+[0.865s] writing top-level names to ../../build/arduino_bridge/arduino_bridge.egg-info/top_level.txt
+[0.887s] reading manifest file '../../build/arduino_bridge/arduino_bridge.egg-info/SOURCES.txt'
+[0.887s] adding license file 'LICENSE'
+[0.888s] writing manifest file '../../build/arduino_bridge/arduino_bridge.egg-info/SOURCES.txt'
+[0.888s] running build
+[0.888s] running build_py
+[0.888s] copying arduino_bridge/__init__.py -> /home/robofei/RoboIris/build/arduino_bridge/build/lib/arduino_bridge
+[0.889s] copying arduino_bridge/arduino_bridge.py -> /home/robofei/RoboIris/build/arduino_bridge/build/lib/arduino_bridge
+[0.889s] running install
+[0.892s] running install_lib
+[0.903s] running install_data
+[0.903s] copying resource/arduino_bridge -> /home/robofei/RoboIris/install/arduino_bridge/share/ament_index/resource_index/packages
+[0.904s] copying package.xml -> /home/robofei/RoboIris/install/arduino_bridge/share/arduino_bridge
+[0.904s] running install_egg_info
+[0.915s] removing '/home/robofei/RoboIris/install/arduino_bridge/lib/python3.10/site-packages/arduino_bridge-0.0.0-py3.10.egg-info' (and everything under it)
+[0.915s] Copying ../../build/arduino_bridge/arduino_bridge.egg-info to /home/robofei/RoboIris/install/arduino_bridge/lib/python3.10/site-packages/arduino_bridge-0.0.0-py3.10.egg-info
+[0.916s] running install_scripts
+[0.939s] Installing arduino_bridge script to /home/robofei/RoboIris/install/arduino_bridge/lib/arduino_bridge
+[0.939s] writing list of installed files to '/home/robofei/RoboIris/build/arduino_bridge/install.log'
+[0.972s] Invoked command in '/home/robofei/RoboIris/src/arduino_bridge' returned '0': PYTHONPATH=/home/robofei/RoboIris/build/arduino_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robofei/RoboIris/install/arduino_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arduino_bridge build --build-base /home/robofei/RoboIris/build/arduino_bridge/build install --record /home/robofei/RoboIris/build/arduino_bridge/install.log --single-version-externally-managed install_data

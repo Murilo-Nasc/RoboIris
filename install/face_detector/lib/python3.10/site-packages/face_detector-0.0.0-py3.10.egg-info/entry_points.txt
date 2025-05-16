@@ -1,3 +1,2 @@
 [console_scripts]
 face_detector = face_detector.face_detector_node:main
-
