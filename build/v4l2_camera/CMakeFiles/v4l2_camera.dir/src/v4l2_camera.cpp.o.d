@@ -667,8 +667,27 @@ CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.o: \
  /opt/ros/humble/include/image_transport/image_transport/loader_fwds.hpp \
  /opt/ros/humble/include/image_transport/image_transport/subscriber.hpp \
  /opt/ros/humble/include/image_transport/image_transport/transport_hints.hpp \
+ /opt/ros/humble/include/diagnostic_updater/diagnostic_updater.hpp \
+ /opt/ros/humble/include/diagnostic_msgs/diagnostic_msgs/msg/diagnostic_array.hpp \
+ /opt/ros/humble/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__struct.hpp \
+ /opt/ros/humble/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__struct.hpp \
+ /opt/ros/humble/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp \
+ /opt/ros/humble/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__builder.hpp \
+ /opt/ros/humble/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__traits.hpp \
+ /opt/ros/humble/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__traits.hpp \
+ /opt/ros/humble/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__traits.hpp \
+ /opt/ros/humble/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__type_support.hpp \
+ /opt/ros/humble/include/diagnostic_msgs/diagnostic_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /opt/ros/humble/include/diagnostic_msgs/diagnostic_msgs/msg/diagnostic_status.hpp \
+ /opt/ros/humble/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__builder.hpp \
+ /opt/ros/humble/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__type_support.hpp \
+ /opt/ros/humble/include/diagnostic_updater/diagnostic_status_wrapper.hpp \
  /home/robofei/RoboIris/src/ros2_v4l2_camera/include/v4l2_camera/visibility_control.h \
+ /home/robofei/RoboIris/src/ros2_v4l2_camera/include/v4l2_camera/rate_bound_status.hpp \
+ /opt/ros/humble/include/diagnostic_updater/update_functions.hpp \
+ /usr/include/c++/11/math.h \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/image_encodings.hpp \
+ /opt/ros/humble/include/diagnostic_updater/publisher.hpp \
  /home/robofei/RoboIris/src/ros2_v4l2_camera/include/v4l2_camera/fourcc.hpp \
  /opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp \
  /opt/ros/humble/include/class_loader/class_loader/class_loader.hpp \

@@ -667,4 +667,19 @@ CMakeFiles/v4l2_camera_compose_test.dir/src/v4l2_camera_compose_test.cpp.o: \
  /opt/ros/humble/include/image_transport/image_transport/loader_fwds.hpp \
  /opt/ros/humble/include/image_transport/image_transport/subscriber.hpp \
  /opt/ros/humble/include/image_transport/image_transport/transport_hints.hpp \
+ /opt/ros/humble/include/diagnostic_updater/diagnostic_updater.hpp \
+ /opt/ros/humble/include/diagnostic_msgs/diagnostic_msgs/msg/diagnostic_array.hpp \
+ /opt/ros/humble/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__struct.hpp \
+ /opt/ros/humble/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__struct.hpp \
+ /opt/ros/humble/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp \
+ /opt/ros/humble/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__builder.hpp \
+ /opt/ros/humble/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__traits.hpp \
+ /opt/ros/humble/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__traits.hpp \
+ /opt/ros/humble/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__traits.hpp \
+ /opt/ros/humble/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__type_support.hpp \
+ /opt/ros/humble/include/diagnostic_msgs/diagnostic_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /opt/ros/humble/include/diagnostic_msgs/diagnostic_msgs/msg/diagnostic_status.hpp \
+ /opt/ros/humble/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__builder.hpp \
+ /opt/ros/humble/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__type_support.hpp \
+ /opt/ros/humble/include/diagnostic_updater/diagnostic_status_wrapper.hpp \
  /home/robofei/RoboIris/src/ros2_v4l2_camera/include/v4l2_camera/visibility_control.h

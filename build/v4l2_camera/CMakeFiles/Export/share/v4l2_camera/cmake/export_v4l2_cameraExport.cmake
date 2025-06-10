@@ -55,7 +55,7 @@ add_library(v4l2_camera::v4l2_camera SHARED IMPORTED)
 
 set_target_properties(v4l2_camera::v4l2_camera PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
-  INTERFACE_LINK_LIBRARIES "rclcpp::rclcpp;rclcpp_components::component;rclcpp_components::component_manager;image_transport::image_transport;camera_info_manager::camera_info_manager"
+  INTERFACE_LINK_LIBRARIES "rclcpp::rclcpp;rclcpp_components::component;rclcpp_components::component_manager;image_transport::image_transport;camera_info_manager::camera_info_manager;diagnostic_updater::diagnostic_updater"
 )
 
 # Create imported target v4l2_camera::v4l2_camera_node

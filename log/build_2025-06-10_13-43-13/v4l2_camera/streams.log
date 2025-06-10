@@ -1,0 +1,115 @@
+[0.258s] Invoking command in '/home/robofei/RoboIris/build/v4l2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robofei/RoboIris/install/object_detector:/home/robofei/RoboIris/install/face_detector:/home/robofei/RoboIris/install/arduino_bridge:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/object_detector:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/face_detector:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/arduino_bridge:/opt/ros/humble /usr/bin/cmake /home/robofei/RoboIris/src/ros2_v4l2_camera -DCMAKE_INSTALL_PREFIX=/home/robofei/RoboIris/install/v4l2_camera
+[0.294s] -- The C compiler identification is GNU 11.4.0
+[0.332s] -- The CXX compiler identification is GNU 11.4.0
+[0.336s] -- Detecting C compiler ABI info
+[0.380s] -- Detecting C compiler ABI info - done
+[0.385s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.386s] -- Detecting C compile features
+[0.386s] -- Detecting C compile features - done
+[0.388s] -- Detecting CXX compiler ABI info
+[0.440s] -- Detecting CXX compiler ABI info - done
+[0.445s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.445s] -- Detecting CXX compile features
+[0.446s] -- Detecting CXX compile features - done
+[0.447s] -- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.709s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.865s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.868s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.873s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.880s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.890s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.916s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.918s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.969s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.986s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.010s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.015s] -- Looking for pthread.h
+[1.068s] -- Looking for pthread.h - found
+[1.069s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.133s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.134s] -- Found Threads: TRUE  
+[1.240s] [0mCUDA_TOOLKIT_ROOT_DIR not found or specified[0m
+[1.245s] -- Could NOT find CUDA (missing: CUDA_TOOLKIT_ROOT_DIR CUDA_NVCC_EXECUTABLE CUDA_INCLUDE_DIRS CUDA_CUDART_LIBRARY) 
+[1.247s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.260s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.260s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/robofei/RoboIris/src/ros2_v4l2_camera/include>
+[1.260s] -- Configured cppcheck exclude dirs and/or files: 
+[1.262s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.262s] -- Configured cpplint exclude dirs and/or files: 
+[1.262s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.263s] -- Added test 'lint_cmake' to check CMake code style
+[1.263s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.265s] -- Added test 'uncrustify' to check C / C++ code style
+[1.265s] -- Configured uncrustify additional arguments: 
+[1.265s] -- Added test 'xmllint' to check XML markup files
+[1.267s] -- Configuring done
+[1.277s] -- Generating done
+[1.281s] -- Build files have been written to: /home/robofei/RoboIris/build/v4l2_camera
+[1.289s] Invoked command in '/home/robofei/RoboIris/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robofei/RoboIris/install/object_detector:/home/robofei/RoboIris/install/face_detector:/home/robofei/RoboIris/install/arduino_bridge:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/object_detector:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/face_detector:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/arduino_bridge:/opt/ros/humble /usr/bin/cmake /home/robofei/RoboIris/src/ros2_v4l2_camera -DCMAKE_INSTALL_PREFIX=/home/robofei/RoboIris/install/v4l2_camera
+[1.289s] Invoking command in '/home/robofei/RoboIris/build/v4l2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robofei/RoboIris/install/object_detector:/home/robofei/RoboIris/install/face_detector:/home/robofei/RoboIris/install/arduino_bridge:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/object_detector:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/face_detector:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/arduino_bridge:/opt/ros/humble /usr/bin/cmake --build /home/robofei/RoboIris/build/v4l2_camera -- -j8 -l8
+[1.321s] [ 28%] [32mBuilding CXX object CMakeFiles/v4l2_camera.dir/src/v4l2_camera_device.cpp.o[0m
+[1.322s] [ 28%] [32mBuilding CXX object CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.o[0m
+[6.126s] [ 42%] [32m[1mLinking CXX shared library libv4l2_camera.so[0m
+[6.347s] [ 42%] Built target v4l2_camera
+[6.360s] [ 71%] [32mBuilding CXX object CMakeFiles/v4l2_camera_node.dir/src/v4l2_camera_node.cpp.o[0m
+[6.360s] [ 71%] [32mBuilding CXX object CMakeFiles/v4l2_camera_compose_test.dir/src/v4l2_camera_compose_test.cpp.o[0m
+[8.581s] [ 85%] [32m[1mLinking CXX executable v4l2_camera_node[0m
+[8.707s] [ 85%] Built target v4l2_camera_node
+[11.573s] [100%] [32m[1mLinking CXX executable v4l2_camera_compose_test[0m
+[11.861s] [100%] Built target v4l2_camera_compose_test
+[11.871s] Invoked command in '/home/robofei/RoboIris/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robofei/RoboIris/install/object_detector:/home/robofei/RoboIris/install/face_detector:/home/robofei/RoboIris/install/arduino_bridge:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/object_detector:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/face_detector:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/arduino_bridge:/opt/ros/humble /usr/bin/cmake --build /home/robofei/RoboIris/build/v4l2_camera -- -j8 -l8
+[11.878s] Invoking command in '/home/robofei/RoboIris/build/v4l2_camera': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robofei/RoboIris/install/object_detector:/home/robofei/RoboIris/install/face_detector:/home/robofei/RoboIris/install/arduino_bridge:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/object_detector:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/face_detector:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/arduino_bridge:/opt/ros/humble /usr/bin/cmake --install /home/robofei/RoboIris/build/v4l2_camera
+[11.883s] -- Install configuration: ""
+[11.883s] -- Installing: /home/robofei/RoboIris/install/v4l2_camera/include
+[11.883s] -- Installing: /home/robofei/RoboIris/install/v4l2_camera/include/v4l2_camera
+[11.884s] -- Installing: /home/robofei/RoboIris/install/v4l2_camera/include/v4l2_camera/image_format.hpp
+[11.884s] -- Installing: /home/robofei/RoboIris/install/v4l2_camera/include/v4l2_camera/control.hpp
+[11.884s] -- Installing: /home/robofei/RoboIris/install/v4l2_camera/include/v4l2_camera/visibility_control.h
+[11.884s] -- Installing: /home/robofei/RoboIris/install/v4l2_camera/include/v4l2_camera/pixel_format.hpp
+[11.884s] -- Installing: /home/robofei/RoboIris/install/v4l2_camera/include/v4l2_camera/v4l2_camera.hpp
+[11.884s] -- Installing: /home/robofei/RoboIris/install/v4l2_camera/include/v4l2_camera/v4l2_camera_device.hpp
+[11.884s] -- Installing: /home/robofei/RoboIris/install/v4l2_camera/include/v4l2_camera/fourcc.hpp
+[11.884s] -- Installing: /home/robofei/RoboIris/install/v4l2_camera/include/v4l2_camera/rate_bound_status.hpp
+[11.884s] -- Installing: /home/robofei/RoboIris/install/v4l2_camera/lib/libv4l2_camera.so
+[11.886s] -- Set runtime path of "/home/robofei/RoboIris/install/v4l2_camera/lib/libv4l2_camera.so" to ""
+[11.886s] -- Installing: /home/robofei/RoboIris/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_node
+[11.886s] -- Set runtime path of "/home/robofei/RoboIris/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_node" to ""
+[11.886s] -- Installing: /home/robofei/RoboIris/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_compose_test
+[11.888s] -- Set runtime path of "/home/robofei/RoboIris/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_compose_test" to ""
+[11.888s] -- Installing: /home/robofei/RoboIris/install/v4l2_camera/share/v4l2_camera/environment/library_path.sh
+[11.888s] -- Installing: /home/robofei/RoboIris/install/v4l2_camera/share/v4l2_camera/environment/library_path.dsv
+[11.888s] -- Up-to-date: /home/robofei/RoboIris/install/v4l2_camera/include
+[11.888s] -- Up-to-date: /home/robofei/RoboIris/install/v4l2_camera/include/v4l2_camera
+[11.888s] -- Up-to-date: /home/robofei/RoboIris/install/v4l2_camera/include/v4l2_camera/image_format.hpp
+[11.889s] -- Up-to-date: /home/robofei/RoboIris/install/v4l2_camera/include/v4l2_camera/control.hpp
+[11.889s] -- Up-to-date: /home/robofei/RoboIris/install/v4l2_camera/include/v4l2_camera/visibility_control.h
+[11.889s] -- Up-to-date: /home/robofei/RoboIris/install/v4l2_camera/include/v4l2_camera/pixel_format.hpp
+[11.889s] -- Up-to-date: /home/robofei/RoboIris/install/v4l2_camera/include/v4l2_camera/v4l2_camera.hpp
+[11.889s] -- Up-to-date: /home/robofei/RoboIris/install/v4l2_camera/include/v4l2_camera/v4l2_camera_device.hpp
+[11.889s] -- Up-to-date: /home/robofei/RoboIris/install/v4l2_camera/include/v4l2_camera/fourcc.hpp
+[11.889s] -- Up-to-date: /home/robofei/RoboIris/install/v4l2_camera/include/v4l2_camera/rate_bound_status.hpp
+[11.889s] -- Installing: /home/robofei/RoboIris/install/v4l2_camera/share/v4l2_camera/launch
+[11.889s] -- Installing: /home/robofei/RoboIris/install/v4l2_camera/share/v4l2_camera/launch/v4l2_camera.launch.py
+[11.889s] -- Installing: /home/robofei/RoboIris/install/v4l2_camera/share/ament_index/resource_index/package_run_dependencies/v4l2_camera
+[11.889s] -- Installing: /home/robofei/RoboIris/install/v4l2_camera/share/ament_index/resource_index/parent_prefix_path/v4l2_camera
+[11.889s] -- Installing: /home/robofei/RoboIris/install/v4l2_camera/share/v4l2_camera/environment/ament_prefix_path.sh
+[11.889s] -- Installing: /home/robofei/RoboIris/install/v4l2_camera/share/v4l2_camera/environment/ament_prefix_path.dsv
+[11.889s] -- Installing: /home/robofei/RoboIris/install/v4l2_camera/share/v4l2_camera/environment/path.sh
+[11.889s] -- Installing: /home/robofei/RoboIris/install/v4l2_camera/share/v4l2_camera/environment/path.dsv
+[11.889s] -- Installing: /home/robofei/RoboIris/install/v4l2_camera/share/v4l2_camera/local_setup.bash
+[11.889s] -- Installing: /home/robofei/RoboIris/install/v4l2_camera/share/v4l2_camera/local_setup.sh
+[11.889s] -- Installing: /home/robofei/RoboIris/install/v4l2_camera/share/v4l2_camera/local_setup.zsh
+[11.889s] -- Installing: /home/robofei/RoboIris/install/v4l2_camera/share/v4l2_camera/local_setup.dsv
+[11.889s] -- Installing: /home/robofei/RoboIris/install/v4l2_camera/share/v4l2_camera/package.dsv
+[11.889s] -- Installing: /home/robofei/RoboIris/install/v4l2_camera/share/ament_index/resource_index/packages/v4l2_camera
+[11.889s] -- Installing: /home/robofei/RoboIris/install/v4l2_camera/share/ament_index/resource_index/rclcpp_components/v4l2_camera
+[11.889s] -- Installing: /home/robofei/RoboIris/install/v4l2_camera/share/v4l2_camera/cmake/export_v4l2_cameraExport.cmake
+[11.889s] -- Installing: /home/robofei/RoboIris/install/v4l2_camera/share/v4l2_camera/cmake/export_v4l2_cameraExport-noconfig.cmake
+[11.890s] -- Installing: /home/robofei/RoboIris/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.890s] -- Installing: /home/robofei/RoboIris/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_targets-extras.cmake
+[11.890s] -- Installing: /home/robofei/RoboIris/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[11.890s] -- Installing: /home/robofei/RoboIris/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.890s] -- Installing: /home/robofei/RoboIris/install/v4l2_camera/share/v4l2_camera/cmake/v4l2_cameraConfig.cmake
+[11.890s] -- Installing: /home/robofei/RoboIris/install/v4l2_camera/share/v4l2_camera/cmake/v4l2_cameraConfig-version.cmake
+[11.890s] -- Installing: /home/robofei/RoboIris/install/v4l2_camera/share/v4l2_camera/package.xml
+[11.891s] Invoked command in '/home/robofei/RoboIris/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robofei/RoboIris/install/object_detector:/home/robofei/RoboIris/install/face_detector:/home/robofei/RoboIris/install/arduino_bridge:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/object_detector:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/face_detector:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/arduino_bridge:/opt/ros/humble /usr/bin/cmake --install /home/robofei/RoboIris/build/v4l2_camera

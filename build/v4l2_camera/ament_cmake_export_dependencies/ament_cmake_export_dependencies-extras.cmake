@@ -1,6 +1,6 @@
 # generated from ament_cmake_export_dependencies/cmake/ament_cmake_export_dependencies-extras.cmake.in
 
-set(_exported_dependencies "camera_info_manager;rclcpp;rclcpp_components;sensor_msgs;image_transport;camera_info_manager")
+set(_exported_dependencies "camera_info_manager;rclcpp;rclcpp_components;sensor_msgs;image_transport;camera_info_manager;diagnostic_updater")
 
 find_package(ament_cmake_libraries QUIET REQUIRED)
 

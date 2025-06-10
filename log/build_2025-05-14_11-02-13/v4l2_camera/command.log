@@ -1,6 +1,0 @@
-Invoking command in '/home/robofei/RoboIris/build/v4l2_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robofei/RoboIris/src/ros2_v4l2_camera -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robofei/RoboIris/install/v4l2_camera
-Invoked command in '/home/robofei/RoboIris/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robofei/RoboIris/src/ros2_v4l2_camera -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/robofei/RoboIris/install/v4l2_camera
-Invoking command in '/home/robofei/RoboIris/build/v4l2_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robofei/RoboIris/build/v4l2_camera -- -j8 -l8
-Invoked command in '/home/robofei/RoboIris/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robofei/RoboIris/build/v4l2_camera -- -j8 -l8
-Invoking command in '/home/robofei/RoboIris/build/v4l2_camera': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robofei/RoboIris/build/v4l2_camera
-Invoked command in '/home/robofei/RoboIris/build/v4l2_camera' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robofei/RoboIris/build/v4l2_camera

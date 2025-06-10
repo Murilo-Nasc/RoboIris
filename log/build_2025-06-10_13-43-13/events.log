@@ -1,0 +1,314 @@
+[0.000000] (-) TimerEvent: {}
+[0.000120] (-) JobUnselected: {'identifier': 'arduino_bridge'}
+[0.000140] (face_detector) JobQueued: {'identifier': 'face_detector', 'dependencies': OrderedDict()}
+[0.000153] (object_detector) JobQueued: {'identifier': 'object_detector', 'dependencies': OrderedDict()}
+[0.000164] (v4l2_camera) JobQueued: {'identifier': 'v4l2_camera', 'dependencies': OrderedDict()}
+[0.000174] (face_detector) JobStarted: {'identifier': 'face_detector'}
+[0.004621] (object_detector) JobStarted: {'identifier': 'object_detector'}
+[0.007790] (v4l2_camera) JobStarted: {'identifier': 'v4l2_camera'}
+[0.099511] (-) TimerEvent: {}
+[0.199779] (-) TimerEvent: {}
+[0.264764] (v4l2_camera) JobProgress: {'identifier': 'v4l2_camera', 'progress': 'cmake'}
+[0.264998] (v4l2_camera) Command: {'cmd': ['/usr/bin/cmake', '/home/robofei/RoboIris/src/ros2_v4l2_camera', '-DCMAKE_INSTALL_PREFIX=/home/robofei/RoboIris/install/v4l2_camera'], 'cwd': '/home/robofei/RoboIris/build/v4l2_camera', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robofei'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robofei/RoboIris/install/v4l2_camera/lib:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/v4l2_camera/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robofei'), ('OLDPWD', '/home/robofei/RoboIris/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '2265'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/robofei/RoboIris/install:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robofei'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robofei'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/robofei/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robofei-ThinkPad-E14-Gen-2:@/tmp/.ICE-unix/1187,unix/robofei-ThinkPad-E14-Gen-2:/tmp/.ICE-unix/1187'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/32ae4d0c_996d_4e7d_b305_b83987f415e6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VCE172'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robofei/RoboIris/install/v4l2_camera:/home/robofei/RoboIris/install/object_detector:/home/robofei/RoboIris/install/face_detector:/home/robofei/RoboIris/install/arduino_bridge:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/v4l2_camera:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/object_detector:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/face_detector:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/arduino_bridge:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robofei/RoboIris/build/v4l2_camera'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robofei/RoboIris/install/object_detector/lib/python3.10/site-packages:/home/robofei/RoboIris/install/face_detector/lib/python3.10/site-packages:/home/robofei/RoboIris/install/arduino_bridge/lib/python3.10/site-packages:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/object_detector/lib/python3.10/site-packages:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/face_detector/lib/python3.10/site-packages:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/arduino_bridge/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/robofei/RoboIris/install/v4l2_camera:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/v4l2_camera:/home/robofei/RoboIris/install/object_detector:/home/robofei/RoboIris/install/face_detector:/home/robofei/RoboIris/install/arduino_bridge:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/object_detector:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/face_detector:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/arduino_bridge:/opt/ros/humble')]), 'shell': False}
+[0.299873] (-) TimerEvent: {}
+[0.301503] (v4l2_camera) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.339469] (v4l2_camera) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.344339] (v4l2_camera) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.388451] (v4l2_camera) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.393350] (v4l2_camera) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.393547] (v4l2_camera) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.393961] (v4l2_camera) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.395880] (v4l2_camera) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399969] (-) TimerEvent: {}
+[0.447905] (v4l2_camera) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.452944] (v4l2_camera) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.453159] (v4l2_camera) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.453534] (v4l2_camera) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.455099] (v4l2_camera) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.11 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[0.500079] (-) TimerEvent: {}
+[0.533631] (object_detector) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/object_detector', 'build', '--build-base', '/home/robofei/RoboIris/build/object_detector/build', 'install', '--record', '/home/robofei/RoboIris/build/object_detector/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/robofei/RoboIris/src/object_detector', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robofei', 'LC_TIME': 'pt_BR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/robofei/RoboIris/install/v4l2_camera/lib:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/v4l2_camera/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/robofei', 'OLDPWD': '/home/robofei/RoboIris/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'pt_BR.UTF-8', 'LC_CTYPE': 'pt_BR.UTF-8', 'SYSTEMD_EXEC_PID': '2265', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/robofei/RoboIris/install:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'robofei', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'robofei', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/robofei/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/robofei-ThinkPad-E14-Gen-2:@/tmp/.ICE-unix/1187,unix/robofei-ThinkPad-E14-Gen-2:/tmp/.ICE-unix/1187', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'pt_BR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/32ae4d0c_996d_4e7d_b305_b83987f415e6', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'pt_BR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.VCE172', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.101', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/robofei/RoboIris/install/v4l2_camera:/home/robofei/RoboIris/install/object_detector:/home/robofei/RoboIris/install/face_detector:/home/robofei/RoboIris/install/arduino_bridge:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/v4l2_camera:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/object_detector:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/face_detector:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/arduino_bridge:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'pt_BR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pt_BR.UTF-8', 'LC_IDENTIFICATION': 'pt_BR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/robofei/RoboIris/build/object_detector', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robofei/RoboIris/build/object_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robofei/RoboIris/install/object_detector/lib/python3.10/site-packages:/home/robofei/RoboIris/install/object_detector/lib/python3.10/site-packages:/home/robofei/RoboIris/install/face_detector/lib/python3.10/site-packages:/home/robofei/RoboIris/install/arduino_bridge/lib/python3.10/site-packages:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/object_detector/lib/python3.10/site-packages:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/face_detector/lib/python3.10/site-packages:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/arduino_bridge/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'pt_BR.UTF-8', 'LC_PAPER': 'pt_BR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/robofei/RoboIris/install/v4l2_camera:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/v4l2_camera'}, 'shell': False}
+[0.535562] (face_detector) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/face_detector', 'build', '--build-base', '/home/robofei/RoboIris/build/face_detector/build', 'install', '--record', '/home/robofei/RoboIris/build/face_detector/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/robofei/RoboIris/src/face_detector', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'robofei', 'LC_TIME': 'pt_BR.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/robofei/RoboIris/install/v4l2_camera/lib:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/v4l2_camera/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/robofei', 'OLDPWD': '/home/robofei/RoboIris/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'pt_BR.UTF-8', 'LC_CTYPE': 'pt_BR.UTF-8', 'SYSTEMD_EXEC_PID': '2265', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/robofei/RoboIris/install:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'robofei', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'robofei', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/robofei/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/robofei-ThinkPad-E14-Gen-2:@/tmp/.ICE-unix/1187,unix/robofei-ThinkPad-E14-Gen-2:/tmp/.ICE-unix/1187', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'pt_BR.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/32ae4d0c_996d_4e7d_b305_b83987f415e6', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'pt_BR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.VCE172', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.101', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/robofei/RoboIris/install/v4l2_camera:/home/robofei/RoboIris/install/object_detector:/home/robofei/RoboIris/install/face_detector:/home/robofei/RoboIris/install/arduino_bridge:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/v4l2_camera:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/object_detector:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/face_detector:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/arduino_bridge:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'pt_BR.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pt_BR.UTF-8', 'LC_IDENTIFICATION': 'pt_BR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/robofei/RoboIris/build/face_detector', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/robofei/RoboIris/build/face_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robofei/RoboIris/install/face_detector/lib/python3.10/site-packages:/home/robofei/RoboIris/install/object_detector/lib/python3.10/site-packages:/home/robofei/RoboIris/install/face_detector/lib/python3.10/site-packages:/home/robofei/RoboIris/install/arduino_bridge/lib/python3.10/site-packages:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/object_detector/lib/python3.10/site-packages:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/face_detector/lib/python3.10/site-packages:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/arduino_bridge/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'pt_BR.UTF-8', 'LC_PAPER': 'pt_BR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/robofei/RoboIris/install/v4l2_camera:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/v4l2_camera'}, 'shell': False}
+[0.600180] (-) TimerEvent: {}
+[0.700465] (-) TimerEvent: {}
+[0.706100] (object_detector) StdoutLine: {'line': b'running egg_info\n'}
+[0.706385] (face_detector) StdoutLine: {'line': b'running egg_info\n'}
+[0.717145] (object_detector) StdoutLine: {'line': b'creating ../../build/object_detector/object_detector.egg-info\n'}
+[0.717339] (object_detector) StdoutLine: {'line': b'writing ../../build/object_detector/object_detector.egg-info/PKG-INFO\n'}
+[0.717394] (v4l2_camera) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.717467] (face_detector) StdoutLine: {'line': b'creating ../../build/face_detector/face_detector.egg-info\n'}
+[0.717509] (face_detector) StdoutLine: {'line': b'writing ../../build/face_detector/face_detector.egg-info/PKG-INFO\n'}
+[0.717579] (object_detector) StdoutLine: {'line': b'writing dependency_links to ../../build/object_detector/object_detector.egg-info/dependency_links.txt\n'}
+[0.717669] (object_detector) StdoutLine: {'line': b'writing entry points to ../../build/object_detector/object_detector.egg-info/entry_points.txt\n'}
+[0.717812] (object_detector) StdoutLine: {'line': b'writing requirements to ../../build/object_detector/object_detector.egg-info/requires.txt\n'}
+[0.717933] (face_detector) StdoutLine: {'line': b'writing dependency_links to ../../build/face_detector/face_detector.egg-info/dependency_links.txt\n'}
+[0.718038] (object_detector) StdoutLine: {'line': b'writing top-level names to ../../build/object_detector/object_detector.egg-info/top_level.txt\n'}
+[0.718101] (object_detector) StdoutLine: {'line': b"writing manifest file '../../build/object_detector/object_detector.egg-info/SOURCES.txt'\n"}
+[0.718162] (face_detector) StdoutLine: {'line': b'writing entry points to ../../build/face_detector/face_detector.egg-info/entry_points.txt\n'}
+[0.718251] (face_detector) StdoutLine: {'line': b'writing requirements to ../../build/face_detector/face_detector.egg-info/requires.txt\n'}
+[0.718339] (face_detector) StdoutLine: {'line': b'writing top-level names to ../../build/face_detector/face_detector.egg-info/top_level.txt\n'}
+[0.718398] (face_detector) StdoutLine: {'line': b"writing manifest file '../../build/face_detector/face_detector.egg-info/SOURCES.txt'\n"}
+[0.740544] (object_detector) StdoutLine: {'line': b"reading manifest file '../../build/object_detector/object_detector.egg-info/SOURCES.txt'\n"}
+[0.740784] (face_detector) StdoutLine: {'line': b"reading manifest file '../../build/face_detector/face_detector.egg-info/SOURCES.txt'\n"}
+[0.741316] (object_detector) StdoutLine: {'line': b"writing manifest file '../../build/object_detector/object_detector.egg-info/SOURCES.txt'\n"}
+[0.741395] (object_detector) StdoutLine: {'line': b'running build\n'}
+[0.741434] (object_detector) StdoutLine: {'line': b'running build_py\n'}
+[0.741501] (object_detector) StdoutLine: {'line': b'creating /home/robofei/RoboIris/build/object_detector/build/lib/object_detector\n'}
+[0.741588] (face_detector) StdoutLine: {'line': b"writing manifest file '../../build/face_detector/face_detector.egg-info/SOURCES.txt'\n"}
+[0.741634] (object_detector) StdoutLine: {'line': b'copying object_detector/object_detector_node.py -> /home/robofei/RoboIris/build/object_detector/build/lib/object_detector\n'}
+[0.741708] (face_detector) StdoutLine: {'line': b'running build\n'}
+[0.741757] (face_detector) StdoutLine: {'line': b'running build_py\n'}
+[0.741837] (face_detector) StdoutLine: {'line': b'creating /home/robofei/RoboIris/build/face_detector/build/lib/face_detector\n'}
+[0.741886] (object_detector) StdoutLine: {'line': b'copying object_detector/__init__.py -> /home/robofei/RoboIris/build/object_detector/build/lib/object_detector\n'}
+[0.741922] (object_detector) StdoutLine: {'line': b'running install\n'}
+[0.741983] (face_detector) StdoutLine: {'line': b'copying face_detector/face_detector_node.py -> /home/robofei/RoboIris/build/face_detector/build/lib/face_detector\n'}
+[0.742049] (face_detector) StdoutLine: {'line': b'copying face_detector/__init__.py -> /home/robofei/RoboIris/build/face_detector/build/lib/face_detector\n'}
+[0.742238] (face_detector) StdoutLine: {'line': b'running install\n'}
+[0.744998] (object_detector) StdoutLine: {'line': b'running install_lib\n'}
+[0.745352] (face_detector) StdoutLine: {'line': b'running install_lib\n'}
+[0.755939] (object_detector) StdoutLine: {'line': b'creating /home/robofei/RoboIris/install/object_detector/lib/python3.10/site-packages/object_detector\n'}
+[0.756100] (face_detector) StdoutLine: {'line': b'creating /home/robofei/RoboIris/install/face_detector/lib/python3.10/site-packages/face_detector\n'}
+[0.756146] (object_detector) StdoutLine: {'line': b'copying /home/robofei/RoboIris/build/object_detector/build/lib/object_detector/object_detector_node.py -> /home/robofei/RoboIris/install/object_detector/lib/python3.10/site-packages/object_detector\n'}
+[0.756186] (object_detector) StdoutLine: {'line': b'copying /home/robofei/RoboIris/build/object_detector/build/lib/object_detector/__init__.py -> /home/robofei/RoboIris/install/object_detector/lib/python3.10/site-packages/object_detector\n'}
+[0.756223] (face_detector) StdoutLine: {'line': b'copying /home/robofei/RoboIris/build/face_detector/build/lib/face_detector/face_detector_node.py -> /home/robofei/RoboIris/install/face_detector/lib/python3.10/site-packages/face_detector\n'}
+[0.756345] (face_detector) StdoutLine: {'line': b'copying /home/robofei/RoboIris/build/face_detector/build/lib/face_detector/__init__.py -> /home/robofei/RoboIris/install/face_detector/lib/python3.10/site-packages/face_detector\n'}
+[0.756450] (object_detector) StdoutLine: {'line': b'byte-compiling /home/robofei/RoboIris/install/object_detector/lib/python3.10/site-packages/object_detector/object_detector_node.py to object_detector_node.cpython-310.pyc\n'}
+[0.756567] (face_detector) StdoutLine: {'line': b'byte-compiling /home/robofei/RoboIris/install/face_detector/lib/python3.10/site-packages/face_detector/face_detector_node.py to face_detector_node.cpython-310.pyc\n'}
+[0.756741] (object_detector) StdoutLine: {'line': b'byte-compiling /home/robofei/RoboIris/install/object_detector/lib/python3.10/site-packages/object_detector/__init__.py to __init__.cpython-310.pyc\n'}
+[0.756836] (object_detector) StdoutLine: {'line': b'running install_data\n'}
+[0.756968] (face_detector) StdoutLine: {'line': b'byte-compiling /home/robofei/RoboIris/install/face_detector/lib/python3.10/site-packages/face_detector/__init__.py to __init__.cpython-310.pyc\n'}
+[0.757032] (object_detector) StdoutLine: {'line': b'creating /home/robofei/RoboIris/install/object_detector/share/ament_index/resource_index/packages\n'}
+[0.757101] (face_detector) StdoutLine: {'line': b'running install_data\n'}
+[0.757138] (object_detector) StdoutLine: {'line': b'copying resource/object_detector -> /home/robofei/RoboIris/install/object_detector/share/ament_index/resource_index/packages\n'}
+[0.757199] (object_detector) StdoutLine: {'line': b'copying package.xml -> /home/robofei/RoboIris/install/object_detector/share/object_detector\n'}
+[0.757270] (face_detector) StdoutLine: {'line': b'creating /home/robofei/RoboIris/install/face_detector/share/ament_index/resource_index/packages\n'}
+[0.757307] (object_detector) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.757371] (face_detector) StdoutLine: {'line': b'copying resource/face_detector -> /home/robofei/RoboIris/install/face_detector/share/ament_index/resource_index/packages\n'}
+[0.757497] (face_detector) StdoutLine: {'line': b'copying package.xml -> /home/robofei/RoboIris/install/face_detector/share/face_detector\n'}
+[0.757567] (face_detector) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.769044] (object_detector) StdoutLine: {'line': b'Copying ../../build/object_detector/object_detector.egg-info to /home/robofei/RoboIris/install/object_detector/lib/python3.10/site-packages/object_detector-0.0.0-py3.10.egg-info\n'}
+[0.769224] (face_detector) StdoutLine: {'line': b'Copying ../../build/face_detector/face_detector.egg-info to /home/robofei/RoboIris/install/face_detector/lib/python3.10/site-packages/face_detector-0.0.0-py3.10.egg-info\n'}
+[0.769440] (object_detector) StdoutLine: {'line': b'running install_scripts\n'}
+[0.769537] (face_detector) StdoutLine: {'line': b'running install_scripts\n'}
+[0.791755] (face_detector) StdoutLine: {'line': b'Installing face_detector script to /home/robofei/RoboIris/install/face_detector/lib/face_detector\n'}
+[0.791906] (object_detector) StdoutLine: {'line': b'Installing object_detector script to /home/robofei/RoboIris/install/object_detector/lib/object_detector\n'}
+[0.792014] (object_detector) StdoutLine: {'line': b"writing list of installed files to '/home/robofei/RoboIris/build/object_detector/install.log'\n"}
+[0.792089] (face_detector) StdoutLine: {'line': b"writing list of installed files to '/home/robofei/RoboIris/build/face_detector/install.log'\n"}
+[0.800551] (-) TimerEvent: {}
+[0.812904] (object_detector) CommandEnded: {'returncode': 0}
+[0.819279] (object_detector) JobEnded: {'identifier': 'object_detector', 'rc': 0}
+[0.819546] (face_detector) CommandEnded: {'returncode': 0}
+[0.822786] (face_detector) JobEnded: {'identifier': 'face_detector', 'rc': 0}
+[0.872698] (v4l2_camera) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.876176] (v4l2_camera) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.881160] (v4l2_camera) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.888287] (v4l2_camera) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.897881] (v4l2_camera) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.900585] (-) TimerEvent: {}
+[0.924196] (v4l2_camera) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.925931] (v4l2_camera) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.977071] (v4l2_camera) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.994115] (v4l2_camera) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.000667] (-) TimerEvent: {}
+[1.017836] (v4l2_camera) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.023321] (v4l2_camera) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.076370] (v4l2_camera) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.076540] (v4l2_camera) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.100783] (-) TimerEvent: {}
+[1.140765] (v4l2_camera) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.141682] (v4l2_camera) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.200951] (-) TimerEvent: {}
+[1.248108] (v4l2_camera) StderrLine: {'line': b'\x1b[0mCUDA_TOOLKIT_ROOT_DIR not found or specified\x1b[0m\n'}
+[1.252795] (v4l2_camera) StdoutLine: {'line': b'-- Could NOT find CUDA (missing: CUDA_TOOLKIT_ROOT_DIR CUDA_NVCC_EXECUTABLE CUDA_INCLUDE_DIRS CUDA_CUDART_LIBRARY) \n'}
+[1.255367] (v4l2_camera) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.268064] (v4l2_camera) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.268175] (v4l2_camera) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/robofei/RoboIris/src/ros2_v4l2_camera/include>\n'}
+[1.268227] (v4l2_camera) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.269715] (v4l2_camera) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.269778] (v4l2_camera) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.270220] (v4l2_camera) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.270797] (v4l2_camera) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.271230] (v4l2_camera) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.272656] (v4l2_camera) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.272719] (v4l2_camera) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.273069] (v4l2_camera) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.274689] (v4l2_camera) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.284837] (v4l2_camera) StdoutLine: {'line': b'-- Generating done\n'}
+[1.288991] (v4l2_camera) StdoutLine: {'line': b'-- Build files have been written to: /home/robofei/RoboIris/build/v4l2_camera\n'}
+[1.296365] (v4l2_camera) CommandEnded: {'returncode': 0}
+[1.297010] (v4l2_camera) JobProgress: {'identifier': 'v4l2_camera', 'progress': 'build'}
+[1.297033] (v4l2_camera) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robofei/RoboIris/build/v4l2_camera', '--', '-j8', '-l8'], 'cwd': '/home/robofei/RoboIris/build/v4l2_camera', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robofei'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robofei/RoboIris/install/v4l2_camera/lib:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/v4l2_camera/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robofei'), ('OLDPWD', '/home/robofei/RoboIris/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '2265'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/robofei/RoboIris/install:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robofei'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robofei'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/robofei/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robofei-ThinkPad-E14-Gen-2:@/tmp/.ICE-unix/1187,unix/robofei-ThinkPad-E14-Gen-2:/tmp/.ICE-unix/1187'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/32ae4d0c_996d_4e7d_b305_b83987f415e6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VCE172'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robofei/RoboIris/install/v4l2_camera:/home/robofei/RoboIris/install/object_detector:/home/robofei/RoboIris/install/face_detector:/home/robofei/RoboIris/install/arduino_bridge:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/v4l2_camera:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/object_detector:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/face_detector:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/arduino_bridge:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robofei/RoboIris/build/v4l2_camera'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robofei/RoboIris/install/object_detector/lib/python3.10/site-packages:/home/robofei/RoboIris/install/face_detector/lib/python3.10/site-packages:/home/robofei/RoboIris/install/arduino_bridge/lib/python3.10/site-packages:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/object_detector/lib/python3.10/site-packages:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/face_detector/lib/python3.10/site-packages:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/arduino_bridge/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/robofei/RoboIris/install/v4l2_camera:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/v4l2_camera:/home/robofei/RoboIris/install/object_detector:/home/robofei/RoboIris/install/face_detector:/home/robofei/RoboIris/install/arduino_bridge:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/object_detector:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/face_detector:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/arduino_bridge:/opt/ros/humble')]), 'shell': False}
+[1.301045] (-) TimerEvent: {}
+[1.329390] (v4l2_camera) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/v4l2_camera.dir/src/v4l2_camera_device.cpp.o\x1b[0m\n'}
+[1.329578] (v4l2_camera) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/v4l2_camera.dir/src/v4l2_camera.cpp.o\x1b[0m\n'}
+[1.401234] (-) TimerEvent: {}
+[1.501555] (-) TimerEvent: {}
+[1.601808] (-) TimerEvent: {}
+[1.702147] (-) TimerEvent: {}
+[1.802404] (-) TimerEvent: {}
+[1.902719] (-) TimerEvent: {}
+[2.002979] (-) TimerEvent: {}
+[2.103259] (-) TimerEvent: {}
+[2.203607] (-) TimerEvent: {}
+[2.303885] (-) TimerEvent: {}
+[2.404211] (-) TimerEvent: {}
+[2.504527] (-) TimerEvent: {}
+[2.604794] (-) TimerEvent: {}
+[2.705137] (-) TimerEvent: {}
+[2.805479] (-) TimerEvent: {}
+[2.905744] (-) TimerEvent: {}
+[3.006073] (-) TimerEvent: {}
+[3.106405] (-) TimerEvent: {}
+[3.206744] (-) TimerEvent: {}
+[3.307069] (-) TimerEvent: {}
+[3.407306] (-) TimerEvent: {}
+[3.507622] (-) TimerEvent: {}
+[3.607927] (-) TimerEvent: {}
+[3.708312] (-) TimerEvent: {}
+[3.808631] (-) TimerEvent: {}
+[3.908973] (-) TimerEvent: {}
+[4.009306] (-) TimerEvent: {}
+[4.109658] (-) TimerEvent: {}
+[4.209985] (-) TimerEvent: {}
+[4.310313] (-) TimerEvent: {}
+[4.410653] (-) TimerEvent: {}
+[4.510983] (-) TimerEvent: {}
+[4.611321] (-) TimerEvent: {}
+[4.711652] (-) TimerEvent: {}
+[4.811960] (-) TimerEvent: {}
+[4.912269] (-) TimerEvent: {}
+[5.012609] (-) TimerEvent: {}
+[5.112919] (-) TimerEvent: {}
+[5.213237] (-) TimerEvent: {}
+[5.313543] (-) TimerEvent: {}
+[5.413862] (-) TimerEvent: {}
+[5.514173] (-) TimerEvent: {}
+[5.614414] (-) TimerEvent: {}
+[5.714732] (-) TimerEvent: {}
+[5.815036] (-) TimerEvent: {}
+[5.915331] (-) TimerEvent: {}
+[6.015647] (-) TimerEvent: {}
+[6.115937] (-) TimerEvent: {}
+[6.134369] (v4l2_camera) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX shared library libv4l2_camera.so\x1b[0m\n'}
+[6.216030] (-) TimerEvent: {}
+[6.316350] (-) TimerEvent: {}
+[6.354775] (v4l2_camera) StdoutLine: {'line': b'[ 42%] Built target v4l2_camera\n'}
+[6.368136] (v4l2_camera) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/v4l2_camera_node.dir/src/v4l2_camera_node.cpp.o\x1b[0m\n'}
+[6.368310] (v4l2_camera) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/v4l2_camera_compose_test.dir/src/v4l2_camera_compose_test.cpp.o\x1b[0m\n'}
+[6.416464] (-) TimerEvent: {}
+[6.516766] (-) TimerEvent: {}
+[6.617062] (-) TimerEvent: {}
+[6.717369] (-) TimerEvent: {}
+[6.817659] (-) TimerEvent: {}
+[6.917957] (-) TimerEvent: {}
+[7.018256] (-) TimerEvent: {}
+[7.118559] (-) TimerEvent: {}
+[7.218868] (-) TimerEvent: {}
+[7.319173] (-) TimerEvent: {}
+[7.419475] (-) TimerEvent: {}
+[7.519776] (-) TimerEvent: {}
+[7.620077] (-) TimerEvent: {}
+[7.720389] (-) TimerEvent: {}
+[7.820696] (-) TimerEvent: {}
+[7.920995] (-) TimerEvent: {}
+[8.021300] (-) TimerEvent: {}
+[8.121605] (-) TimerEvent: {}
+[8.221905] (-) TimerEvent: {}
+[8.322213] (-) TimerEvent: {}
+[8.422516] (-) TimerEvent: {}
+[8.522824] (-) TimerEvent: {}
+[8.589226] (v4l2_camera) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX executable v4l2_camera_node\x1b[0m\n'}
+[8.623014] (-) TimerEvent: {}
+[8.715430] (v4l2_camera) StdoutLine: {'line': b'[ 85%] Built target v4l2_camera_node\n'}
+[8.723111] (-) TimerEvent: {}
+[8.823409] (-) TimerEvent: {}
+[8.923751] (-) TimerEvent: {}
+[9.024098] (-) TimerEvent: {}
+[9.124471] (-) TimerEvent: {}
+[9.224798] (-) TimerEvent: {}
+[9.325134] (-) TimerEvent: {}
+[9.425453] (-) TimerEvent: {}
+[9.525789] (-) TimerEvent: {}
+[9.626124] (-) TimerEvent: {}
+[9.726406] (-) TimerEvent: {}
+[9.826781] (-) TimerEvent: {}
+[9.927100] (-) TimerEvent: {}
+[10.027412] (-) TimerEvent: {}
+[10.127726] (-) TimerEvent: {}
+[10.227940] (-) TimerEvent: {}
+[10.328187] (-) TimerEvent: {}
+[10.428504] (-) TimerEvent: {}
+[10.528820] (-) TimerEvent: {}
+[10.629069] (-) TimerEvent: {}
+[10.729390] (-) TimerEvent: {}
+[10.829714] (-) TimerEvent: {}
+[10.929931] (-) TimerEvent: {}
+[11.030252] (-) TimerEvent: {}
+[11.130482] (-) TimerEvent: {}
+[11.230803] (-) TimerEvent: {}
+[11.331111] (-) TimerEvent: {}
+[11.431449] (-) TimerEvent: {}
+[11.531678] (-) TimerEvent: {}
+[11.581271] (v4l2_camera) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable v4l2_camera_compose_test\x1b[0m\n'}
+[11.631878] (-) TimerEvent: {}
+[11.732205] (-) TimerEvent: {}
+[11.832545] (-) TimerEvent: {}
+[11.868949] (v4l2_camera) StdoutLine: {'line': b'[100%] Built target v4l2_camera_compose_test\n'}
+[11.879349] (v4l2_camera) CommandEnded: {'returncode': 0}
+[11.879791] (v4l2_camera) JobProgress: {'identifier': 'v4l2_camera', 'progress': 'install'}
+[11.885395] (v4l2_camera) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robofei/RoboIris/build/v4l2_camera'], 'cwd': '/home/robofei/RoboIris/build/v4l2_camera', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'robofei'), ('LC_TIME', 'pt_BR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robofei/RoboIris/install/v4l2_camera/lib:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/v4l2_camera/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robofei'), ('OLDPWD', '/home/robofei/RoboIris/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'pt_BR.UTF-8'), ('LC_CTYPE', 'pt_BR.UTF-8'), ('SYSTEMD_EXEC_PID', '2265'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/robofei/RoboIris/install:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robofei'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robofei'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/robofei/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robofei-ThinkPad-E14-Gen-2:@/tmp/.ICE-unix/1187,unix/robofei-ThinkPad-E14-Gen-2:/tmp/.ICE-unix/1187'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'pt_BR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/32ae4d0c_996d_4e7d_b305_b83987f415e6'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'pt_BR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VCE172'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.101'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robofei/RoboIris/install/v4l2_camera:/home/robofei/RoboIris/install/object_detector:/home/robofei/RoboIris/install/face_detector:/home/robofei/RoboIris/install/arduino_bridge:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/v4l2_camera:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/object_detector:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/face_detector:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/arduino_bridge:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'pt_BR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'pt_BR.UTF-8'), ('LC_IDENTIFICATION', 'pt_BR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/robofei/RoboIris/build/v4l2_camera'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robofei/RoboIris/install/object_detector/lib/python3.10/site-packages:/home/robofei/RoboIris/install/face_detector/lib/python3.10/site-packages:/home/robofei/RoboIris/install/arduino_bridge/lib/python3.10/site-packages:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/object_detector/lib/python3.10/site-packages:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/face_detector/lib/python3.10/site-packages:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/arduino_bridge/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'pt_BR.UTF-8'), ('LC_PAPER', 'pt_BR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/robofei/RoboIris/install/v4l2_camera:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/v4l2_camera:/home/robofei/RoboIris/install/object_detector:/home/robofei/RoboIris/install/face_detector:/home/robofei/RoboIris/install/arduino_bridge:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/object_detector:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/face_detector:/home/robofei/RoboIris-40347eba852a33cbaba7967249b0e5d09bacf625/install/arduino_bridge:/opt/ros/humble')]), 'shell': False}
+[11.891389] (v4l2_camera) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.891500] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/robofei/RoboIris/install/v4l2_camera/include\n'}
+[11.891544] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/robofei/RoboIris/install/v4l2_camera/include/v4l2_camera\n'}
+[11.891593] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/robofei/RoboIris/install/v4l2_camera/include/v4l2_camera/image_format.hpp\n'}
+[11.891655] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/robofei/RoboIris/install/v4l2_camera/include/v4l2_camera/control.hpp\n'}
+[11.891715] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/robofei/RoboIris/install/v4l2_camera/include/v4l2_camera/visibility_control.h\n'}
+[11.891754] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/robofei/RoboIris/install/v4l2_camera/include/v4l2_camera/pixel_format.hpp\n'}
+[11.891818] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/robofei/RoboIris/install/v4l2_camera/include/v4l2_camera/v4l2_camera.hpp\n'}
+[11.891865] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/robofei/RoboIris/install/v4l2_camera/include/v4l2_camera/v4l2_camera_device.hpp\n'}
+[11.891903] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/robofei/RoboIris/install/v4l2_camera/include/v4l2_camera/fourcc.hpp\n'}
+[11.891941] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/robofei/RoboIris/install/v4l2_camera/include/v4l2_camera/rate_bound_status.hpp\n'}
+[11.891994] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/robofei/RoboIris/install/v4l2_camera/lib/libv4l2_camera.so\n'}
+[11.894209] (v4l2_camera) StdoutLine: {'line': b'-- Set runtime path of "/home/robofei/RoboIris/install/v4l2_camera/lib/libv4l2_camera.so" to ""\n'}
+[11.894287] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/robofei/RoboIris/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_node\n'}
+[11.894348] (v4l2_camera) StdoutLine: {'line': b'-- Set runtime path of "/home/robofei/RoboIris/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_node" to ""\n'}
+[11.894406] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/robofei/RoboIris/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_compose_test\n'}
+[11.896254] (v4l2_camera) StdoutLine: {'line': b'-- Set runtime path of "/home/robofei/RoboIris/install/v4l2_camera/lib/v4l2_camera/v4l2_camera_compose_test" to ""\n'}
+[11.896341] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/robofei/RoboIris/install/v4l2_camera/share/v4l2_camera/environment/library_path.sh\n'}
+[11.896382] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/robofei/RoboIris/install/v4l2_camera/share/v4l2_camera/environment/library_path.dsv\n'}
+[11.896450] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/robofei/RoboIris/install/v4l2_camera/include\n'}
+[11.896489] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/robofei/RoboIris/install/v4l2_camera/include/v4l2_camera\n'}
+[11.896526] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/robofei/RoboIris/install/v4l2_camera/include/v4l2_camera/image_format.hpp\n'}
+[11.896562] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/robofei/RoboIris/install/v4l2_camera/include/v4l2_camera/control.hpp\n'}
+[11.896605] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/robofei/RoboIris/install/v4l2_camera/include/v4l2_camera/visibility_control.h\n'}
+[11.896640] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/robofei/RoboIris/install/v4l2_camera/include/v4l2_camera/pixel_format.hpp\n'}
+[11.896676] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/robofei/RoboIris/install/v4l2_camera/include/v4l2_camera/v4l2_camera.hpp\n'}
+[11.896710] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/robofei/RoboIris/install/v4l2_camera/include/v4l2_camera/v4l2_camera_device.hpp\n'}
+[11.896776] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/robofei/RoboIris/install/v4l2_camera/include/v4l2_camera/fourcc.hpp\n'}
+[11.896818] (v4l2_camera) StdoutLine: {'line': b'-- Up-to-date: /home/robofei/RoboIris/install/v4l2_camera/include/v4l2_camera/rate_bound_status.hpp\n'}
+[11.896854] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/robofei/RoboIris/install/v4l2_camera/share/v4l2_camera/launch\n'}
+[11.896889] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/robofei/RoboIris/install/v4l2_camera/share/v4l2_camera/launch/v4l2_camera.launch.py\n'}
+[11.896924] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/robofei/RoboIris/install/v4l2_camera/share/ament_index/resource_index/package_run_dependencies/v4l2_camera\n'}
+[11.896959] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/robofei/RoboIris/install/v4l2_camera/share/ament_index/resource_index/parent_prefix_path/v4l2_camera\n'}
+[11.896994] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/robofei/RoboIris/install/v4l2_camera/share/v4l2_camera/environment/ament_prefix_path.sh\n'}
+[11.897053] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/robofei/RoboIris/install/v4l2_camera/share/v4l2_camera/environment/ament_prefix_path.dsv\n'}
+[11.897089] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/robofei/RoboIris/install/v4l2_camera/share/v4l2_camera/environment/path.sh\n'}
+[11.897125] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/robofei/RoboIris/install/v4l2_camera/share/v4l2_camera/environment/path.dsv\n'}
+[11.897161] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/robofei/RoboIris/install/v4l2_camera/share/v4l2_camera/local_setup.bash\n'}
+[11.897196] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/robofei/RoboIris/install/v4l2_camera/share/v4l2_camera/local_setup.sh\n'}
+[11.897246] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/robofei/RoboIris/install/v4l2_camera/share/v4l2_camera/local_setup.zsh\n'}
+[11.897279] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/robofei/RoboIris/install/v4l2_camera/share/v4l2_camera/local_setup.dsv\n'}
+[11.897315] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/robofei/RoboIris/install/v4l2_camera/share/v4l2_camera/package.dsv\n'}
+[11.897369] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/robofei/RoboIris/install/v4l2_camera/share/ament_index/resource_index/packages/v4l2_camera\n'}
+[11.897404] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/robofei/RoboIris/install/v4l2_camera/share/ament_index/resource_index/rclcpp_components/v4l2_camera\n'}
+[11.897452] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/robofei/RoboIris/install/v4l2_camera/share/v4l2_camera/cmake/export_v4l2_cameraExport.cmake\n'}
+[11.897505] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/robofei/RoboIris/install/v4l2_camera/share/v4l2_camera/cmake/export_v4l2_cameraExport-noconfig.cmake\n'}
+[11.897578] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/robofei/RoboIris/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.897627] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/robofei/RoboIris/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[11.897684] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/robofei/RoboIris/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.897745] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/robofei/RoboIris/install/v4l2_camera/share/v4l2_camera/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.897803] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/robofei/RoboIris/install/v4l2_camera/share/v4l2_camera/cmake/v4l2_cameraConfig.cmake\n'}
+[11.897851] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/robofei/RoboIris/install/v4l2_camera/share/v4l2_camera/cmake/v4l2_cameraConfig-version.cmake\n'}
+[11.897901] (v4l2_camera) StdoutLine: {'line': b'-- Installing: /home/robofei/RoboIris/install/v4l2_camera/share/v4l2_camera/package.xml\n'}
+[11.898955] (v4l2_camera) CommandEnded: {'returncode': 0}
+[11.907888] (v4l2_camera) JobEnded: {'identifier': 'v4l2_camera', 'rc': 0}
+[11.908182] (-) EventReactorShutdown: {}
