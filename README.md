@@ -16,13 +16,15 @@ Para clonar o repositório:
 
 ```bash
 git clone https://github.com/Murilo-Nasc/RoboIris.git
-cd RoboIris```
+cd RoboIris´´
 
 Como este workspace segue a estrutura padrão do ROS 2 (src/ contendo os pacotes), você deve compilar e "sourcear" o ambiente após clonar:
 
 ```source /opt/ros/humble/setup.bash
 colcon build
-source install/setup.bash``
+source install/setup.bash´´´
+
+---
 
 ## 📦 Sobre os pacotes
 
