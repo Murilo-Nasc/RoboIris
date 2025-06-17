@@ -15,7 +15,7 @@ Este repositório foi criado para armazenar e organizar os pacotes ROS 2 utiliza
 Para clonar o repositório:
 
 ```bash
-git clone https://github.com/Murilo-Nasc/RoboIris.git
+git clone --recurse-submodules https://github.com/Murilo-Nasc/RoboIris.git
 cd RoboIris
 ```
 
